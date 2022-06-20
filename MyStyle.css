@@ -1,0 +1,45 @@
+.icon-nipon {
+    height: 30px;
+}
+
+.text-gradient.text-primary {
+    background-image: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
+
+.bg-gradient-primary {
+    background-image: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.text-style {
+    background: -webkit-linear-gradient(#eee, rgb(167, 167, 167));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+}
+
+.filter {
+    content: "";
+}
+
+.filter::after {
+    background-color: rgba(0,0,0,.5);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.icon-shop {
+    height: 25px;       
+}
+
+.icon-ramen {
+    height: 28px;
+}
+
+.card-background-mask-primary {
+    background-image: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
